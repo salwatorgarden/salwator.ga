@@ -98,6 +98,28 @@ ul {
 
   }
 
+  form li {
+  	list-style: none;
+  	margin-bottom: 20px
+  }
+
+  form ul{
+  		padding-left:0;
+  }
+
+  label {
+  	display: block;
+  	cursor: pointer;
+  	color: #292929;
+  	font-family: sans-serif;
+  	padding-bottom: 8px;
+  }
+
+  textarea {
+  	width: 400px;
+  	height: 6000px;
+  }
+
 #main-content {
   max-width: 800px;
   margin: 0 auto;
@@ -189,10 +211,10 @@ ul {
     }
 
     .img-info h2 {
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 0px;
     }
     .img-info p {
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 0px;
     }
 
     li a, .dropbtn {
