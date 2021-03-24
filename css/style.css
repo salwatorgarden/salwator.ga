@@ -13,6 +13,8 @@
 .img-banner {
   display: none;
 }
+h1{line-height: 1.2em;margin:0;}
+
 .headline,
 .headline a,
 .headline a:link,
@@ -146,6 +148,14 @@ line-height: 0px;
      margin-top:400px;
    }
 
+.flip-embedded .flip-entries{
+  margin-bottom:0;
+}
+.flip-list-header .flip-entries .flip-grid-view .flip-entry {
+  height: 111px;
+  margin: 8px 2px 76px;
+  width: 188px;
+}
    @media only screen and (min-width:768px){
  .wrapper {
      width: 750px;
